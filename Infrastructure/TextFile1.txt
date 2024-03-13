@@ -1,0 +1,57 @@
+﻿Rest/Restful service vs Soap Services(XMLServices)
+
+1. Rest is based on http protocol
+2. rest is stateless
+3. rest uses json data format
+
+{
+"id":"1",
+"name":"smith",
+"age":"34"
+}
+
+
+API  
+
+WebAPI = is independently executable
+
+Payment Gateway
+
+
+Eshop
+
+Ecommerce
+
+Messages:- Http
+
+Request and Response
+
+json format
+
+
+payload= url
+
+
+https://localhost:40231/Billing/Checkout?id=20&name=dsjlkj
+
+https://localhost:40231/Authentication/Login
+{
+"id":"1"
+"username":"sdfsdfsd",
+"password":"sjdfljljl2wqq"
+}
+
+httpbody
+headers = encryption, token
+httpverbs = "Get","Post",put, delete, patch,
+http status code = 1xx, 2xx, 3xx, 4xx, 5xx
+
+
+
+//Controller,Actionmethod
+
+HomeController:Controller
+
+HomeController:ControllerBase
+
+
